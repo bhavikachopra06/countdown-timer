@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Countdown Timer</h1>
+        </div>
+        <div class="outer-wrapper">
+            <div class="timer">
+                <div class="wrapper">
+                    <div class="main">
+                        <div class="days">
+                            <p class="number" id="timer-days">00</p>
+                            <p class="name">Days</p>
+                        </div>
+                        <p class="colon">:</p>
+                        <div class="hours">
+                            <p class="number" id="timer-hours">00</p>
+                            <p class="name">Hours</p>
+                        </div>
+                        <p class="colon">:</p>
+                        <div class="minutes">
+                            <p class="number" id="timer-minutes">00</p>
+                            <p class="name">Minutes</p>
+                        </div>
+                        <p class="colon">:</p>
+                        <div class="seconds">
+                            <p class="number" id="timer-seconds">00</p>
+                            <p class="name">Seconds</p>
+                        </div>
+                       
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="butn" id="start-timer">Start</button>
+            <button class="butn" id="stop-timer" hidden>Stop</button>
+            <button class="butn" id="reset-timer" >Reset</button>
+            
+        </div>
+      
+
+    </div>
+    
+<script src="script.js"></script>
+</body>
+</html>
